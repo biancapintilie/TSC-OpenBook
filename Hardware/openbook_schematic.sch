@@ -2692,26 +2692,85 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <sheets>
 <sheet>
 <plain>
-<text x="-396.24" y="172.72" size="2.54" layer="91">USB C connector &amp; ESD protection</text>
-<text x="-251.46" y="172.72" size="2.54" layer="91">LDO Voltage Regulator</text>
-<text x="-119.38" y="172.72" size="2.54" layer="91">SD Card</text>
-<text x="-119.38" y="127" size="2.54" layer="91">ESP32 C6</text>
-<text x="-78.74" y="63.5" size="2.54" layer="91">Battery Charge Level</text>
-<text x="-93.98" y="-17.78" size="2.54" layer="91">External NOR Flash 64MB</text>
-<text x="-172.72" y="-17.78" size="2.54" layer="91">SPI ESD Protection Lines</text>
-<text x="-205.74" y="-20.32" size="2.54" layer="91">Qwiic / 
-Stemma QT</text>
-<text x="-251.46" y="-17.78" size="2.54" layer="91">Test Pads</text>
-<text x="-396.24" y="-17.78" size="2.54" layer="91">RTC Module DS3231SN</text>
-<text x="-396.24" y="106.68" size="2.54" layer="91">Display Type Selector</text>
-<text x="-396.24" y="63.5" size="2.54" layer="91">E-Paper Display Header</text>
-<text x="-340.36" y="106.68" size="2.54" layer="91">E-Paper Drive Circuit</text>
-<text x="-233.68" y="106.68" size="2.54" layer="91">Li-Po Battery Charging Controller</text>
-<text x="-307.34" y="63.5" size="2.54" layer="91">EPD Power</text>
-<text x="-269.24" y="63.5" size="2.54" layer="91">Environmental Sensor BME688</text>
-<text x="-185.42" y="63.5" size="2.54" layer="91">Voltage Supervisor + Reset &amp; Boot / IO Button</text>
-<text x="-111.76" y="-66.04" size="3.81" layer="91">OpenBook Schematic</text>
-<text x="-53.34" y="-58.42" size="1.524" layer="91">Pintilie Bianca-Georgiana 331CD</text>
+<wire x1="-132.08" y1="111.76" x2="-236.22" y2="111.76" width="0.1524" layer="97"/>
+<wire x1="-236.22" y1="111.76" x2="-345.44" y2="111.76" width="0.1524" layer="97"/>
+<wire x1="-345.44" y1="111.76" x2="-398.78" y2="111.76" width="0.1524" layer="97"/>
+<wire x1="-398.78" y1="111.76" x2="-345.44" y2="111.76" width="0.1524" layer="97"/>
+<wire x1="-345.44" y1="111.76" x2="-254" y2="111.76" width="0.1524" layer="97"/>
+<wire x1="-254" y1="111.76" x2="-254" y2="177.8" width="0.1524" layer="97"/>
+<wire x1="-254" y1="177.8" x2="-254" y2="111.76" width="0.1524" layer="97"/>
+<wire x1="-254" y1="111.76" x2="-345.44" y2="111.76" width="0.1524" layer="97"/>
+<wire x1="-345.44" y1="111.76" x2="-345.44" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="-345.44" y1="66.04" x2="-398.78" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="-398.78" y1="66.04" x2="-309.88" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="-309.88" y1="66.04" x2="-273.05" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="-273.05" y1="66.04" x2="-236.22" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="-236.22" y1="66.04" x2="-190.5" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="-190.5" y1="66.04" x2="-81.28" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="-81.28" y1="66.04" x2="-17.78" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="-17.78" y1="66.04" x2="-81.28" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="-81.28" y1="66.04" x2="-124.46" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="-124.46" y1="66.04" x2="-124.46" y2="111.76" width="0.1524" layer="97"/>
+<wire x1="-124.46" y1="111.76" x2="-124.46" y2="134.62" width="0.1524" layer="97"/>
+<wire x1="-124.46" y1="134.62" x2="-124.46" y2="177.8" width="0.1524" layer="97"/>
+<wire x1="-132.08" y1="111.76" x2="-124.46" y2="111.76" width="0.1524" layer="97"/>
+<wire x1="-236.22" y1="111.76" x2="-236.22" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="-17.78" y1="-12.7" x2="-81.28" y2="-12.7" width="0.1524" layer="97"/>
+<wire x1="-81.28" y1="-12.7" x2="-96.52" y2="-12.7" width="0.1524" layer="97"/>
+<wire x1="-96.52" y1="-12.7" x2="-175.26" y2="-12.7" width="0.1524" layer="97"/>
+<wire x1="-175.26" y1="-12.7" x2="-190.5" y2="-12.7" width="0.1524" layer="97"/>
+<wire x1="-190.5" y1="-12.7" x2="-208.28" y2="-12.7" width="0.1524" layer="97"/>
+<wire x1="-208.28" y1="-12.7" x2="-254" y2="-12.7" width="0.1524" layer="97"/>
+<wire x1="-254" y1="-12.7" x2="-273.05" y2="-12.7" width="0.1524" layer="97"/>
+<wire x1="-273.05" y1="-12.7" x2="-309.88" y2="-12.7" width="0.1524" layer="97"/>
+<wire x1="-309.88" y1="-12.7" x2="-398.78" y2="-12.7" width="0.1524" layer="97"/>
+<wire x1="-309.88" y1="66.04" x2="-309.88" y2="-12.7" width="0.1524" layer="97"/>
+<wire x1="-273.05" y1="66.04" x2="-273.05" y2="-12.7" width="0.1524" layer="97"/>
+<wire x1="-190.5" y1="66.04" x2="-190.5" y2="-10.16" width="0.1524" layer="97"/>
+<wire x1="-190.5" y1="-10.16" x2="-190.5" y2="-12.7" width="0.1524" layer="97"/>
+<wire x1="-190.5" y1="-12.7" x2="-190.5" y2="-10.16" width="0.1524" layer="97"/>
+<wire x1="-190.5" y1="-10.16" x2="-190.5" y2="-12.7" width="0.1524" layer="97"/>
+<wire x1="-175.26" y1="-12.7" x2="-175.26" y2="-76.2" width="0.1524" layer="97"/>
+<wire x1="-208.28" y1="-12.7" x2="-208.28" y2="-76.2" width="0.1524" layer="97"/>
+<wire x1="-208.28" y1="-76.2" x2="-205.74" y2="-76.2" width="0.1524" layer="97"/>
+<wire x1="-254" y1="-12.7" x2="-254" y2="-76.2" width="0.1524" layer="97"/>
+<wire x1="-96.52" y1="-12.7" x2="-96.52" y2="-55.88" width="0.1524" layer="97"/>
+<wire x1="-81.28" y1="66.04" x2="-81.28" y2="-12.7" width="0.1524" layer="97"/>
+<text x="-396.24" y="172.72" size="2.54" layer="97">USB C connector &amp; ESD protection</text>
+<text x="-393.7" y="106.68" size="2.54" layer="97">Display Type Selector</text>
+<text x="-342.9" y="106.68" size="2.54" layer="97">E-Paper Drive Circuit</text>
+<text x="-342.9" y="106.68" size="2.54" layer="97">E-Paper Drive Circuit</text>
+<text x="-251.46" y="172.72" size="2.54" layer="97">LDO Voltage Regulator</text>
+<text x="-251.46" y="172.72" size="2.54" layer="97">LDO Voltage Regulator</text>
+<text x="-121.92" y="172.72" size="2.54" layer="97">SD Card</text>
+<text x="-121.92" y="172.72" size="2.54" layer="97">SD Card</text>
+<wire x1="-124.46" y1="134.62" x2="-17.78" y2="134.62" width="0.1524" layer="97"/>
+<text x="-119.38" y="129.54" size="2.54" layer="97">ESP32 C6</text>
+<text x="-119.38" y="129.54" size="2.54" layer="97">ESP32 C6</text>
+<text x="-233.68" y="106.68" size="2.54" layer="97">Li-Po Battery Charging Controller</text>
+<text x="-233.68" y="106.68" size="2.54" layer="97">Li-Po Battery Charging Controller</text>
+<text x="-393.7" y="63.5" size="2.54" layer="97">E-Ppaer Display Header</text>
+<text x="-393.7" y="63.5" size="2.54" layer="97">E-Ppaer Display Header</text>
+<text x="-307.34" y="60.96" size="2.54" layer="97">EPD Power</text>
+<text x="-307.34" y="60.96" size="2.54" layer="97">EPD Power</text>
+<text x="-269.24" y="60.96" size="2.54" layer="97">Environmental Sensor BME688</text>
+<text x="-269.24" y="60.96" size="2.54" layer="97">Environmental Sensor BME688</text>
+<text x="-185.42" y="60.96" size="2.54" layer="97">Voltage Supervisor + Reset &amp; Boot / IO Button</text>
+<text x="-185.42" y="60.96" size="2.54" layer="97">Voltage Supervisor + Reset &amp; Boot / IO Button</text>
+<text x="-78.74" y="60.96" size="2.54" layer="97">Battery Charge Level</text>
+<text x="-78.74" y="60.96" size="2.54" layer="97">Battery Charge Level</text>
+<text x="-93.98" y="-17.78" size="2.54" layer="97">External NOR Flash 64MB</text>
+<text x="-93.98" y="-17.78" size="2.54" layer="97">External NOR Flash 64MB</text>
+<text x="-172.72" y="-17.78" size="2.54" layer="97">SPI ESD Protection Lines</text>
+<text x="-172.72" y="-17.78" size="2.54" layer="97">SPI ESD Protection Lines</text>
+<text x="-251.46" y="-17.78" size="2.54" layer="97">Test Pads</text>
+<text x="-251.46" y="-17.78" size="2.54" layer="97">Test Pads</text>
+<text x="-205.74" y="-17.78" size="2.54" layer="97">Qwiic / Stemma QT</text>
+<text x="-205.74" y="-17.78" size="2.54" layer="97">Qwiic / Stemma QT</text>
+<text x="-393.7" y="-17.78" size="2.54" layer="97">RTC Module DS3231SN</text>
+<text x="-393.7" y="-17.78" size="2.54" layer="97">RTC Module DS3231SN</text>
+<text x="-111.76" y="-66.04" size="3.81" layer="97">OpenBook Schematic</text>
+<text x="-58.42" y="-58.42" size="1.778" layer="97">Pintilie Bianca-Georgiana 331CD</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="-314.96" y="50.8" smashed="yes" rot="MR0">
@@ -4843,67 +4902,6 @@ Stemma QT</text>
 <pinref part="R_CAPACITOR" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$16" class="0">
-<segment>
-<wire x1="-398.78" y1="111.76" x2="-347.98" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="-347.98" y1="111.76" x2="-254" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="-254" y1="111.76" x2="-238.76" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="-238.76" y1="111.76" x2="-121.92" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="-121.92" y1="111.76" x2="-121.92" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="-121.92" y1="132.08" x2="-121.92" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="-121.92" y1="132.08" x2="-17.78" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="-254" y1="177.8" x2="-254" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="68.58" x2="-81.28" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="68.58" x2="-121.92" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-121.92" y1="111.76" x2="-121.92" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-121.92" y1="68.58" x2="-190.5" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-190.5" y1="68.58" x2="-238.76" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-238.76" y1="68.58" x2="-274.32" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-274.32" y1="68.58" x2="-309.88" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-309.88" y1="68.58" x2="-347.98" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-347.98" y1="68.58" x2="-398.78" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-347.98" y1="111.76" x2="-347.98" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-238.76" y1="111.76" x2="-238.76" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-398.78" y1="-12.7" x2="-309.88" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-309.88" y1="-12.7" x2="-274.32" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-274.32" y1="-12.7" x2="-256.54" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-256.54" y1="-12.7" x2="-208.28" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-208.28" y1="-12.7" x2="-190.5" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-190.5" y1="-12.7" x2="-175.26" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-175.26" y1="-12.7" x2="-101.6" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-101.6" y1="-12.7" x2="-81.28" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="-12.7" x2="-17.78" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-309.88" y1="68.58" x2="-309.88" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-309.88" y1="-12.7" x2="-274.32" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-274.32" y1="-12.7" x2="-274.32" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-190.5" y1="68.58" x2="-190.5" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="68.58" x2="-81.28" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-101.6" y1="-12.7" x2="-101.6" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="-256.54" y1="-12.7" x2="-256.54" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-208.28" y1="-12.7" x2="-208.28" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="-175.26" y1="-12.7" x2="-175.26" y2="-73.66" width="0.1524" layer="91"/>
-<junction x="-347.98" y="111.76"/>
-<junction x="-347.98" y="68.58"/>
-<junction x="-309.88" y="68.58"/>
-<junction x="-274.32" y="68.58"/>
-<junction x="-238.76" y="68.58"/>
-<junction x="-238.76" y="111.76"/>
-<junction x="-254" y="111.76"/>
-<junction x="-121.92" y="111.76"/>
-<junction x="-121.92" y="132.08"/>
-<junction x="-190.5" y="68.58"/>
-<junction x="-274.32" y="-12.7"/>
-<junction x="-309.88" y="-12.7"/>
-<junction x="-81.28" y="-12.7"/>
-<junction x="-208.28" y="-12.7"/>
-<junction x="-121.92" y="68.58"/>
-<junction x="-256.54" y="-12.7"/>
-<junction x="-81.28" y="68.58"/>
-<junction x="-101.6" y="-12.7"/>
-<junction x="-190.5" y="-12.7"/>
-<junction x="-175.26" y="-12.7"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
@@ -4929,10 +4927,6 @@ Stemma QT</text>
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
