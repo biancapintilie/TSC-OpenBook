@@ -87,3 +87,7 @@ o	Majoritatea în format 0402
 •	PCB în format compact, optimizat pentru portabilitate
 •	Carcasă printată 3D 
 •	Acces facil la conectorul USB-C (J2) pentru încărcare
+
+**Schema Bloc**
+![image](https://github.com/user-attachments/assets/fa522e8e-549b-4be4-9a1b-7f61022e6712)
+
